@@ -1,3 +1,58 @@
+:root {
+  --bg-color-1: #fbb040;
+
+  --btn-color-1: #175fac;
+
+  --brand-color-1: #00437b;
+}
+
 .cb_header {
   margin-top: 30px;
+}
+.cb_logo {
+  float: right;
+}
+
+.cb_loginContainer {
+  /* background-image: url("/assets/bg.jpg"); */
+}
+.cb_loginBackground {
+  background-color: var(--bg-color-1);
+  padding: 20px;
+  border-radius: 10px;
+}
+.cb_loginHeader {
+  font-size: 20px;
+  color: var(--brand-color-1);
+}
+
+.cb_break {
+  background-color: black;
+  opacity: 0.1;
+  height: 2px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.cb_username {
+  border-radius: 10px;
+}
+.cb_loginBtn {
+  background-color: var(--btn-color-1);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.cb_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cb_links > a {
+  color: var(--brand-color-1);
+  text-decoration: none !important;
+  font-weight: 500;
+  padding: 2px;
 }
