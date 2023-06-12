@@ -12,6 +12,7 @@
   --generic-black: #000000;
 
   --brand-color-1: #00437b;
+  --brand-color-2: #27aae1;
 }
 
 .cb_header {
@@ -87,4 +88,29 @@
 .cb_heroPara {
   font-size: 20px;
   font-weight: 400;
+}
+.cb_supportCard {
+  background-color: var(--brand-color-2);
+  color: var(--generic-white);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+.cb_supportTitle {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cb_phone {
+  margin-bottom: 8px;
+}
+.cb_phone,
+.cb_mail {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.cb_phone > img,
+.cb_mail > img {
+  margin-right: 12px;
 }
