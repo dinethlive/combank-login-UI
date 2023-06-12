@@ -22,12 +22,17 @@
 }
 
 .cb_loginContainer {
-  /* background-image: url("/assets/bg.jpg"); */
+  background-image: url("/assets/bg.jpg");
+  min-height: 70vh;
+  padding: 20px;
+  background-size: cover;
 }
 .cb_loginBackground {
   background-color: var(--bg-color-1);
   padding: 20px;
   border-radius: 10px;
+
+  margin-bottom: 12px;
 }
 .cb_loginHeader {
   font-size: 20px;
@@ -69,13 +74,14 @@
   background-color: var(--generic-black);
   padding: 20px;
   border-radius: 8px;
+  background: rgba(0, 0, 0, 0.65);
 }
 .cb_heroHeading,
 .cb_heroPara {
   color: var(--generic-white);
 }
 .cb_heroHeading {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 400;
 }
 .cb_heroPara {
