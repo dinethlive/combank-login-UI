@@ -18,5 +18,6 @@ Contributions to this project are welcome. If you have any suggestions or improv
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-![preview](https://github.com/dinethlive/combank-login-UI/assets/74010757/cca5894d-4251-4276-a529-8f9a078caedf)
+## Preview 👇
 
+![preview](https://github.com/dinethlive/combank-login-UI/assets/74010757/cca5894d-4251-4276-a529-8f9a078caedf)
