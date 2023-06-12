@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Varela+Round&display=swap");
+
+* {
+  ffont-family: "Roboto", sans-serif;
+}
 :root {
   --bg-color-1: #fbb040;
 
   --btn-color-1: #175fac;
+
+  --generic-white: #ffffff;
+  --generic-black: #000000;
 
   --brand-color-1: #00437b;
 }
@@ -55,4 +63,22 @@
   text-decoration: none !important;
   font-weight: 500;
   padding: 2px;
+}
+
+.cb_heroWrapper {
+  background-color: var(--generic-black);
+  padding: 20px;
+  border-radius: 8px;
+}
+.cb_heroHeading,
+.cb_heroPara {
+  color: var(--generic-white);
+}
+.cb_heroHeading {
+  font-size: 32px;
+  font-weight: 400;
+}
+.cb_heroPara {
+  font-size: 20px;
+  font-weight: 400;
 }
