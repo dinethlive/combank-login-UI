@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Varela+Round&display=swap");
 
 * {
-  ffont-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 :root {
   --bg-color-1: #fbb040;
